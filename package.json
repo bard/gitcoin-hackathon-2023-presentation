@@ -1,0 +1,13 @@
+{
+  "name": "gitcoin-hackathon-2023-presentation",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "PORT=9999 marp --preview --server content",
+    "build": "mkdir -p build; test -d content/assets && cp -r content/assets build/assets; marp"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
