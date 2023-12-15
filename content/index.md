@@ -65,10 +65,11 @@ https://github.com/bard/gs-log
 - re-implementation of pluralistic.js in Rust
 - same output for the core QF formula
 - goals:
-    - performance
-    - correctness (in the QF sense)
-    - correctness (in the engineering sense)
-    - building block for other projects
+  - performance
+  - correctness (in the QF sense)
+  - correctness (in the engineering sense)
+  - building block for other projects
+
 ---
 
 # pluralistic-rs - Results
@@ -160,11 +161,20 @@ $ cat 'event_log.ndjson' |
 
 # gs-index · use cases
 
+<style scoped>
+.container {
+  text-align: center; 
+  padding-top: 1rem;
+}
+</style>
+
 Log on one machine, index on another:
 
-<div style="text-align: center; padding-top: 1rem;">
+<div class="container">
   <video src="./assets/gs-log-index-demo.webm" controls width="90%"></video>
 </div>
+
+---
 
 # gs-index · use cases
 
