@@ -138,6 +138,14 @@ $ cat 'event_log.ndjson' |
 
 # gs-index · use cases
 
+Log on one machine, index on another:
+
+<div style="text-align: center; padding-top: 1rem;">
+  <video src="./assets/gs-log-index-demo.webm" controls width="90%"></video>
+</div>
+
+# gs-index · use cases
+
 <style scoped>
 aside {
   text-align: right; 
