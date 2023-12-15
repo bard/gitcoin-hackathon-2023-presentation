@@ -60,11 +60,33 @@ https://github.com/bard/gs-log
 
 ---
 
-# pluralistic-rs · slide 1
+# pluralistic-rs
+
+- re-implementation of pluralistic.js in Rust
+- same output for the core QF formula
+- goals:
+    - performance
+    - correctness (in the QF sense)
+    - correctness (in the engineering sense)
+    - building block for other projects
+---
+
+# pluralistic-rs - Results
+
+- 10x faster calculation
+- calculates a round of 130k votes in 40ms
+- performance useful for matching estimates
+- 2 matching cap methods - cap and redistribute
+
+![img](./assets/img.png)
 
 ---
 
-# pluralistic-rs · slide 2
+# pluralistic-rs - Next steps
+
+- fuzz testing
+- further performance optimizations
+- pairwise QF
 
 ---
 
